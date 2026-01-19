@@ -1,5 +1,11 @@
 # 📦 Sistema de Inventário e Automação de TI
 
+⚠️ **Dependência obrigatória:**  
+Este projeto **depende diretamente** do repositório **usuarios_ad.git**, que é responsável pela integração e sincronização com o Active Directory.  
+Ele deve estar configurado e funcionando antes da execução deste sistema.
+
+> Repositório: https://github.com/WiBaP/usuarios_ad.git
+
 Sistema desenvolvido em Python para gerenciamento de equipamentos, usuários e automações integradas ao Active Directory.
 
 O projeto tem como objetivo centralizar o controle de inventário, histórico de movimentações e rotinas administrativas, reduzindo atividades manuais do setor de TI.
