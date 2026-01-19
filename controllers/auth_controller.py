@@ -14,12 +14,7 @@ ad_service = ADAuthService(
 
 # ====== USUÁRIOS AUTORIZADOS ======
 USUARIOS_AUTORIZADOS = {
-    "willian.pinho",
-    "weslley.nascimento",
-    "guilherme.azevedo",
-    "thiago.porto",
-    "william.silva",
-    "caroline.g"
+    "teste"
 }
 # ==================================
 
