@@ -32,8 +32,8 @@ O projeto tem como objetivo centralizar o controle de inventário, histórico de
 ## ⚙️ Como instalar o projeto
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/WiBaP/inventario_equipamentos.git
+cd inventario_equipamentos.git
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
