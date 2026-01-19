@@ -37,15 +37,13 @@ cd inventario_equipamentos.git
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-▶️ Como executar
-bash
-Copiar código
-uvicorn main:app --reload
-Acesse:
 
-arduino
-Copiar código
+▶️ Como executar
+uvicorn main:app --reload
+
+Acesse:
 http://localhost:8000
+
 🗂 Estrutura do projeto
 cpp
 Copiar código
@@ -57,6 +55,7 @@ Copiar código
 ├── static
 ├── templates
 ├── main.py
+
 📌 Observações
 O sistema utiliza autenticação via Active Directory
 
