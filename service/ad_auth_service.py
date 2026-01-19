@@ -1,9 +1,9 @@
 from ldap3 import Server, Connection, NONE
 
 class ADAuthService:
-    def __init__(self, server_url: str = "ldap://172.21.0.145", domain: str = "LELIS"):
-        self.server_url = "172.21.0.145"   
-        self.domain ="LELIS"
+    def __init__(self, server_url: str = "ldap:", domain: str = ""):
+        self.server_url = ""   
+        self.domain =""
 
 
     def authenticate(self, username: str, password: str):
