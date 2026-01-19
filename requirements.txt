@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pyodbc
+uvicorn[standard]
+jinja2
+python-multipart
+ldap3
+reportlab
